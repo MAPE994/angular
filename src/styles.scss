@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Cranolli";
+    src: local("Cranolli"), url(./assets/fonts/Cranolli.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Everbrightsans";
+    src: local("Everbrightsans"), url(./assets/fonts/Everbrightsans.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Komoda";
+    src: local("Komoda"), url(./assets/fonts/Komoda.otf) format("truetype");
+}

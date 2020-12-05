@@ -1,0 +1,8 @@
+{
+    "baseUrl": " https://jsonplaceholder.typicode.com",
+    "resource": {
+        "user" : "/user",
+        "album": "/album",
+        "photo": "/photo"
+    }
+}

@@ -1,0 +1,13 @@
+<header>
+    <div class="back" (click)="goBack()">
+        <h2>BACK</h2>
+    </div>
+    <div>
+        <h2>PHOTOS</h2>
+    </div>
+</header>
+<div class="photos">
+    <div class="photo" *ngFor="let photo of photos">
+        <img src="{{ photo.url }}" alt="{{ photo.title }}">
+    </div>
+</div>

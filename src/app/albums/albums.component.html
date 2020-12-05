@@ -1,0 +1,16 @@
+<header>
+    <div class="back" (click)="goBack()">
+        <h2>BACK</h2>
+    </div>
+    <div>
+        <h2>ALBUMS</h2>
+    </div>
+</header>
+<ul class="albums">
+    <li class="album" *ngFor="let album of albums">
+        <a routerLink="/photos/{{album.id}}">
+            <h1>{{ album.title }}</h1>
+            <img src={{album.thumbnailUrl}} alt="Album Thumbnail">
+        </a>
+    </li>
+</ul>

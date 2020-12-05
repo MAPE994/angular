@@ -1,0 +1,12 @@
+<header>
+    <h2>USERS</h2>
+</header>
+<ul class="users">
+    <li class="user" *ngFor="let user of users">
+        <a routerLink="/albums/{{ user.id }}">
+            <h1>{{ user.username }} - {{ user.name }}</h1>
+            <p>Company Name: {{ user.company.name }}</p>
+            <p>Number of albums: {{ user.nAlbums }}</p>
+        </a>
+    </li>
+</ul>
